@@ -21,11 +21,13 @@
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
 
+    <style name="TransparentText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorTransparent</item>
     </style>
 
     <!--<style name="StatusBarColors" parent="MainTheme">-->
-        <!--<item name="android:windowTranslucentStatus">true</item>-->
         <!--<item name="android:windowActionBarOverlay">true</item>-->
         <!--<item name="android:windowContentOverlay">@null</item>-->
     <!--</style>-->
