@@ -21,9 +21,11 @@
     <color name="colorPrimaryDark">#182020</color>
     <color name="colorAccent">#FF9800</color>
     <color name="colorFabTint">#162021</color>
-
-    <color name="colorCardTitle">#757575</color>
-    <color name="colorCardDateAuth">#E0E0E0</color>
+    <color name="colorFabTouch">#4d5354</color>
+    <color name="colorTitle">#EEEEEE</color>
+    <color name="colorDateAuth">#939393</color>
+    <color name="colorCardTitle">#272d2d</color>
+    <color name="colorCardDateAuth">#b5c1c2</color>
     <color name="colorTransparent">#00000000</color>
 
 </resources>

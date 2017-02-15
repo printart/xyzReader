@@ -123,7 +123,7 @@ public class ArticleDetailFragment extends Fragment implements
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
                             System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                             DateUtils.FORMAT_ABBREV_ALL).toString()
-                            + " by <font color='#ffffff'>"
+                            + " by <font color='#ffffff'>" + " "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)
                             + "</font>"));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
@@ -136,12 +136,10 @@ public class ArticleDetailFragment extends Fragment implements
                                 Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
-                                //titleView.setBackgroundColor(mMutedColor);
                                 linearLayout.setBackgroundColor(mMutedColor);
                                 collapsingToolbarLayout.setTitle(titleView.getText());
                                 collapsingToolbarLayout.setExpandedTitleColor(ContextCompat.getColor(getActivity(), R.color.colorTransparent));
                                 collapsingToolbarLayout.setContentScrimColor(mMutedColor);
-                                //floatingActionButton.setBackgroundTintList(ColorStateList.valueOf(mMutedColor));
                                 appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
                                     @Override
                                     public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
