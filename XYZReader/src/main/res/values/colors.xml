@@ -20,8 +20,7 @@
     <color name="colorPrimary">#1e2828</color>
     <color name="colorPrimaryDark">#182020</color>
     <color name="colorAccent">#FF9800</color>
-    <color name="colorFabTint">#162021</color>
-    <color name="colorFabTouch">#4d5354</color>
+    <color name="colorSnackbarBg">#162021</color>
     <color name="colorTitle">#EEEEEE</color>
     <color name="colorDateAuth">#939393</color>
     <color name="colorCardTitle">#272d2d</color>

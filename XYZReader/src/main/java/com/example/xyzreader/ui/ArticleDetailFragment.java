@@ -99,13 +99,12 @@ public class ArticleDetailFragment extends Fragment implements
             return;
         }
         final AppBarLayout appBarLayout = (AppBarLayout) mRootView.findViewById(R.id.detail_fragment_app_bar_layout);
-
         final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.detail_fragment_collapsing_toolbar_layout);
         final LinearLayout linearLayout = (LinearLayout) mRootView.findViewById(R.id.detail_fragment_title_container);
         final TextView titleView = (TextView) mRootView.findViewById(R.id.detail_fragment_article_title);
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
         TextView bodyView = (TextView) mRootView.findViewById(R.id.detail_fragment_article_body);
-        final FloatingActionButton floatingActionButton = (FloatingActionButton) mRootView.findViewById(R.id.detail_fragment_fab);
+        FloatingActionButton floatingActionButton = (FloatingActionButton) mRootView.findViewById(R.id.detail_fragment_fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

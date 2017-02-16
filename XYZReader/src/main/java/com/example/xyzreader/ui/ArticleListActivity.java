@@ -71,7 +71,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
         mSnackbar = Snackbar.make(coordinatorLayout, R.string.snack_message_update, Snackbar.LENGTH_SHORT);
         View view = mSnackbar.getView();
-        view.setBackgroundColor(ContextCompat.getColor(this, R.color.colorFabTint));
+        view.setBackgroundColor(ContextCompat.getColor(this, R.color.colorSnackbarBg));
     }
 
     private void refresh() {

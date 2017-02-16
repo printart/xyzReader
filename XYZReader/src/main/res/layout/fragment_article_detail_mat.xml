@@ -20,6 +20,7 @@
             android:fitsSystemWindows="true"
             app:expandedTitleTextAppearance="@style/TransparentText"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
             <ImageView
                 android:id="@+id/detail_fragment_photo"
                 android:layout_width="match_parent"
@@ -102,9 +103,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/margin_16"
-        android:backgroundTint="@color/colorFabTint"
         android:elevation="6dp"
         android:src="@drawable/ic_share"
-        app:rippleColor="@color/colorFabTouch"/>
+        app:layout_behavior="com.example.xyzreader.ui.ScrollingFabBehavior"/>
 
 </android.support.design.widget.CoordinatorLayout>
